@@ -1,6 +1,6 @@
-import { defineConfig } from 'wxt';
+import { defineConfig } from "wxt";
 import tailwindcss from "@tailwindcss/vite";
-import path from 'path';
+import path from "path";
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
@@ -11,6 +11,9 @@ export default defineConfig({
     permissions: ["storage", "fontSettings"],
   },
   modules: ["@wxt-dev/module-react"],
+  imports: {
+    dirs: ["lib/**", "utils/**"],
+  },
   vite: () => ({
     plugins: [tailwindcss()],
     resolve: {
