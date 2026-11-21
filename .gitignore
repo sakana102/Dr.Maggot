@@ -15,7 +15,10 @@ stats-*.json
 web-ext.config.ts
 
 # Editor directories and files
+.vscode
 .vscode/*
+.backup
+.backup/*
 !.vscode/extensions.json
 .idea
 .DS_Store
