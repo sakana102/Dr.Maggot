@@ -72,6 +72,9 @@ importers:
       wxt:
         specifier: ^0.21.3
         version: 0.21.3(eslint@9.39.4(jiti@2.7.0))(rolldown@1.2.3)(typescript@5.9.3)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0))(web-ext@10.6.0(express@5.2.1)(jiti@2.7.0))
+      zod:
+        specifier: ^4.4.3
+        version: 4.4.3
 
 packages:
 
@@ -3121,6 +3124,9 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+
 snapshots:
 
   '@1natsu/wait-element@4.2.0':
@@ -6100,3 +6106,5 @@ snapshots:
       zod: 3.25.76
 
   zod@3.25.76: {}
+
+  zod@4.4.3: {}
